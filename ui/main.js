@@ -1,8 +1,5 @@
 console.log('Loaded!');
 
-window.onload = function() {
-
-
 var element = document.getElementById("main-text");
 element.innerTML = 'NEW Value';
 
@@ -15,5 +12,4 @@ function moveRight() {
 }
 ele.onclick = function () {
     var internal = setInterval(moveRight, 50);
-};
 };
