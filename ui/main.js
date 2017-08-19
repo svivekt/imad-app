@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
 var element = document.getElementById("main-text");
-element.innerTML = 'NEW Value';
+element.innerHTML = 'NEW Value';
 
 var ele = document.getElementById("madi");
 var marginLeft = 0;
