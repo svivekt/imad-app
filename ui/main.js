@@ -3,10 +3,10 @@ console.log('Loaded!');
 window.onload = function() {
 
 
-var element = document.getElementById('main-text');
+var element = document.getElementById("main-text");
 element.innerTML = 'NEW Value';
 
-var img = document.getElementById('madi');
+var ele = document.getElementById("madi");
 var marginLeft = 0;
 
 function moveRight() {
